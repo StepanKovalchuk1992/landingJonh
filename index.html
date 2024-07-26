@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Tehnologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+   <header class="header">
+        <div class="header__content">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#works">Works</a></li>
+                <li class="header__item"><a class="header__link" href="#photo">Photo</a></li>
+                <li class="header__item"><a class="header__link" href="#contact">Follow me</a></li>
+            </ul>
+        </div>
+   </header>
+   <div class="container _container">
+        <section>
+            <div class="main">
+                <div class="main__colum">
+                    <div class="main__title">
+                        <h1>Hi, I am John,
+                        Creative Technologist</h1>
+                    </div>
+                    <div class="main__text">
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div class="main__btn">
+                        <a class="main__btn_link" href="#">Download Resume</a>
+                    </div>
+                </div>
+                <div class="main__image">
+                    <img class="main__image_img" src="../site john/image/avatar.jpg" alt="avatar">
+                </div>
+            </div>
+        </section>   
+        <article class="recent-posts">
+            <div class="recent-posts__heder">
+                <h3 class="recent-posts__heder_h3-item-1">Recent posts</h3>
+                <h3 class="recent-posts__heder_h3-item-2">View all</h3>
+            </div>
+                <div class="recent-posts__colum">
+                    <div class="colum-1">
+                        <div class="recent-posts__title_1">Making a design system from scratch</div>
+                        <div class="recent-posts__text_1">12 Feb 2020 <span>|</span> Design, Pattern</div>
+                        <div class="recent-posts__text-description_1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                    <div class="colum-2">
+                        <div class="recent-posts__title_2">Creating pixel perfect icons in Figma</div>
+                        <div class="recent-posts__text_2">12 Feb 2020 <span>|</span> Figma, Icon Design</div>
+                        <div class="recent-posts__text-description_2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                    </div>
+                </div>
+        </article>
+        <article class="featured-works" id="works">
+            <div class="fw__heder">Featured works</div>
+            <div class="works__row-colum">
+                <div class="works__row"></div>
+                <div class="works__img">
+                    <img class="works-img" src="../site john/image/Rectangle 30.jpg" alt="dashboards">
+                </div>
+                <div class="works__colum">
+                    <div class="works__title">Designing Dashboards</div>
+                    <div class="works__value">
+                        <h3 class="works__value-year">2018</h3>
+                        <h3 class="works__value-item">Dashboard</h3>
+                    </div>
+                    <div class="works__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                </div>
+            </div>
+            <div class="works__row-colum">
+                <div class="works__row"></div>
+                <div class="works__img">
+                    <img class="works-img" src="../site john/image/Rectangle 32.jpg" alt="portraits">
+                </div>
+                <div class="works__colum">
+                    <div class="works__title">Vibrant Portraits of 2020</div>
+                    <div class="works__value">
+                        <h3 class="works__value-year">2018</h3>
+                        <h3 class="works__value-item">Illustration</h3>
+                    </div>
+                    <div class="works__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                </div>
+            </div>
+            <div class="works__row-colum">
+                <div class="works__row"></div>
+                <div class="works__img">
+                    <img class="works-img" src="../site john/image/Rectangle 34.png" alt="malayalam type">
+                </div>
+                <div class="works__colum">
+                    <div class="works__title">36 Days of Malayalam type</div>
+                    <div class="works__value">
+                        <h3 class="works__value-year">2018</h3>
+                        <h3 class="works__value-item">Typography</h3>
+                    </div>
+                    <div class="works__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+            </div>
+        </article>
+    </div>   
+    
+    <div class="slider-container" id="photo">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="./image/slider-1.jpg" alt="Фото 1">
+                    <div class="text">Milos, Greece</div>
+                </div>
+                <div class="slide">
+                    <img src="./image/slider-2.jpg" alt="Фото 2">
+                    <div class="text">Madrid, Spain</div>
+                </div>
+                <div class="slide">
+                    <img src="./image/slider-3.jpg" alt="Фото 3">
+                    <div class="text">HP, India</div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+
+</body>
+<footer class="footer" id="contact">
+    <div class="footer__container _container">
+        <div class="footer__img">
+            <img class="img" src="../site john/image/fb.svg" alt="fb">
+            <img class="img" src="../site john/image/insta.svg" alt="insta">
+            <img class="img" src="../site john/image/twitter.svg" alt="twitter">
+            <img class="img" src="../site john/image/linkedin.svg" alt="linkedin">
+        </div>    
+    </div>
+    <div class="footer__text">Copyright ©2024 All rights reserved</div>
+</footer>
+
+<script src="main.js"></script>
+</html>
